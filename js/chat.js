@@ -4,6 +4,7 @@ const path = require("path")
 const server = require("http").createServer(app)
 const io = require("socket.io")(server,{cors:{origin:"*"}})
 const users = {}
+const port = process.env.PORT || 80
 
 app.use("/static" , express.static("static"))
 app.set("view engine", "pug");
@@ -14,7 +15,7 @@ app.get("/", (req,res)=>{
     res.sendFile(path.join(__dirname, "../views/chat.html"));
 })
 
-server.listen(80,()=>{
+server.listen(port,()=>{
     console.log(`server runing on ${80}`);
 })
     
