@@ -1,4 +1,4 @@
-const socket = io("http://localhost:80")
+const socket = io("https://chatwithnileshboss.herokuapp.com/")
 
 const form = document.getElementById("land")
 const messageinput = document.getElementById("text")
