@@ -1,33 +1,52 @@
-
-.img{
+.img {
     margin: auto;
     width: fit-content;
-    
+
 }
-html,body{height: 100%;
+
+.Chatwithnileshboss {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  
+}
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background-image: linear-gradient(0deg, rgb(164, 200, 240), rgba(228, 225, 219, 1));
 }
 
 /* chatbox related */
-.chatbox{
+.chatbox {
+
     overflow-y: scroll;
-    height: 500px;
+    height: 85%;
     padding: 10px;
 }
-.left{
-    
+
+.left {
+
     padding: 6px;
     max-width: 40%;
     border: 1px solid rgb(156, 155, 155);
     border-radius: 10px;
     clear: both;
     float: left;
-    
-    font-weight:800;
-    background: rgb(219, 218, 218);}
-.right{
-    font-weight:800;
+
+    font-weight: 800;
+    background: rgb(219, 218, 218);
+}
+
+.right {
+    font-weight: 800;
     border-radius: 10px;
     padding: 6px;
     max-width: 40%;
@@ -37,18 +56,25 @@ html,body{height: 100%;
     background: rgb(219, 218, 218);
 }
 
-.send{
+.send {
     width: fit-content;
     margin: auto;
 
 }
-#text{
+
+#text {
+    padding: 5px;
     border-radius: 10px;
+    height: 40px;
+    width: 300px;
 }
-#land{
+
+#land {
     background-color: rgb(34 28 27);
     border-radius: 10px;
     color: white;
     border: white 2px solid;
-    padding-bottom: 2px;
+    padding: 18px;
+
 }
+

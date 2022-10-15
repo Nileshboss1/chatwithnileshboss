@@ -7,7 +7,6 @@ const messagecontainer = document.querySelector(".chatbox")
 const append = (message,position)=>{
     const messageElement = document.createElement("div")
     messageElement.innerText = message
-    messageElement.classList.add("message")
     messageElement.classList.add(position)
     messagecontainer.append(messageElement) 
 }
