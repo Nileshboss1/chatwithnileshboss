@@ -1,4 +1,10 @@
-const socket = io("https://chatwithnileshboss.herokuapp.com/")
+const io = require("socket.io-client");
+const socket = io("https://chatwithnileshboss.herokuapp.com/", {
+  withCredentials: true,
+  extraHeaders: {
+    "my-custom-header": "abcd"
+  }
+});
 
 const form = document.getElementById("land")
 const messageinput = document.getElementById("text")
