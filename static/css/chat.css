@@ -5,31 +5,24 @@
 }
 
 .Chatwithnileshboss {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-  
-}
-
-html,
-body {
-
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+   
+   
+    overflow-y:hidden;
     background-repeat: no-repeat;
     background-image: linear-gradient(0deg, rgb(164, 200, 240), rgba(228, 225, 219, 1));
 }
+
+
 
 /* chatbox related */
 .chatbox {
 
     overflow-y: scroll;
-    height: 85%;
+    height: 80%;
     padding: 10px;
+  
 }
 
 .left {
@@ -67,13 +60,16 @@ body {
     border-radius: 10px;
     height: 20px;
     width: 200px;
+    color: rgb(145, 255, 0) ;
+    background-color: rgb(0, 0, 0);
 }
 
 #land {
-    background-color: rgb(34 28 27);
+    background-color: rgb(86, 179, 0);
     border-radius: 10px;
-    color: white;
-    border: white 2px solid;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 2px solid;
     padding: 10px;
 
 }
