@@ -2,7 +2,7 @@ const express = require("express")
 const app  = express()
 const path = require("path")
 const server = require("http").createServer(app)
-const io = require("socket.io")(server,{cors:{origin:"https://chatwithnileshboss.herokuapp.com/", methods: ["GET", "POST"],
+const io = require("socket.io")(server,{cors:{origin:"https://chatwithnilesh.herokuapp.com/", methods: ["GET", "POST"],
 allowedHeaders: ["my-custom-header"],
 credentials: true}})
 const users = {}

@@ -1,4 +1,4 @@
-const socket = io("https://chatwithnileshboss.herokuapp.com/")
+const socket = io("https://chatwithnilesh.herokuapp.com/")
 
 
 const form = document.getElementById("land")
